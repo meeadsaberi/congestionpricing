@@ -3,7 +3,7 @@ Implementing congestion pricing in AIMSUN mesoscopic traffic simulation.
 
 This repository includes instructions on how to implement congestion pricing in a mesoscopic dynamic traffic model in AIMSUN and the associated python scripts for it.
 
-You may first want to download an already existing meso model in AIMSUN. We encourage you to use the calibrated and validation meso model of Melbourne, either from another repository https://github.com/meeadsaberi/dynamel or directly from https://www.cityxlab.com/dta.html
+You may first want to download an already existing meso model in AIMSUN. We encourage you to use our own large-scale calibrated and validated meso model of Melbourne, either from another repository https://github.com/meeadsaberi/dynamel or directly from https://www.cityxlab.com/dta.html
 
 After having the meso model running with no problem in AIMSUN, first thing you need to consider for congestion pricing is to specify the desired Generalized Cost Function (GCF) for both priced and non-priced links in the network given a particular pricing scheme. Here in "cost_function.py", we provide the GCF for an adavnced pricing sceheme with joint distance and delay toll. For more information on the pricing scheme, see our publication here:
 https://www.sciencedirect.com/science/article/pii/S0968090X18300573
