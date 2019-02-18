@@ -1,4 +1,4 @@
-# congestion pricing in AIMSUN
+# Congestion pricing in AIMSUN
 Implementing congestion pricing in AIMSUN mesoscopic traffic simulation
 
 This repository includes instructions on how to implement congestion pricing in a mesoscopic dynamic traffic model in AIMSUN and the associated python scripts for it.
